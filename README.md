@@ -49,7 +49,7 @@ weather-dashboard/
 
 ### **1. Clone the Repository**
 ```bash
-git clone https://github.com/yourusername/weather-dashboard.git
+git clone https://github.com/KwasiPee/weather_dashboard_pra.git
 cd weather-dashboard
 ```
 
