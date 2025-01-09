@@ -97,11 +97,47 @@ python src/weather_dashboard.py
 - **Git Workflow**:
   - Version control for project development and deployment.
 
+  ## Visualizations
+
+### Weather Data for Munich
+The bar chart for **Munich** clearly displays all metrics, including temperature, feels-like temperature, and humidity.
+
+![Munich Weather Chart](images/munich_chart.png)
+
+### Weather Data for Paderborn
+Due to the low temperatures in **Paderborn**, the bar chart prominently highlights the **humidity**, with other metrics being less visually significant.
+
+![Paderborn Weather Chart](images/paderborn_chart.png)
+
+### Weather Data for Berlin
+Similarly, in **Berlin**, only the **humidity** is visually prominent in the bar chart due to the low temperature values.
+
+![Berlin Weather Chart](images/berlin_chart.png)
+
+---
+
+## Visualization Notes
+Due to the low temperatures in **Paderborn** and **Berlin**, their bar charts primarily highlight **humidity** as the most visible metric. In contrast, the chart for **Munich** displays all metrics (temperature, feels-like temperature, and humidity) more evenly.
+
+---
+
+## How to Use
+1. Run the Python script to fetch weather data for predefined cities.
+2. View the interactive bar charts saved as HTML files or screenshots in the `images/` folder.
+3. Visualizations are also available on AWS S3 under the `visualizations/` folder.
+
+---
+
+## Setup Instructions
+Refer to the previous sections for setting up the project and running the script.
+
+---
+
 ---
 
 ## **Future Enhancements**
 - Add weather forecasting for cities.
-- Integrate data visualization (e.g., using matplotlib or AWS QuickSight).
+- Integrate more data visualization ( AWS QuickSight).
 - Support more cities dynamically via user input or configuration.
 - Implement automated testing for robustness.
 - Set up a CI/CD pipeline for continuous deployment.
